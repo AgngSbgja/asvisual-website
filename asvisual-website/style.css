@@ -23,8 +23,8 @@ header{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);background:va
 header.s{border-color:var(--bd)}
 nav{display:flex;align-items:center;justify-content:space-between;height:68px}
 .logo{display:flex;align-items:center}
-.lg{display:block;height:34px;aspect-ratio:520/67;background:var(--logo) center/contain no-repeat}
-footer .lg{height:38px}
+.lg{display:block;height:28px;aspect-ratio:520/67;background:var(--logo) center/contain no-repeat}
+footer .lg{height:28px}
 .tb{display:flex;align-items:center;gap:10px}
 .tg{width:42px;height:42px;border-radius:50%;border:1px solid var(--bd);background:transparent;cursor:pointer;display:grid;place-items:center;color:var(--tx);transition:border-color .2s,background .2s}
 .tg:hover{border-color:var(--sky)}
