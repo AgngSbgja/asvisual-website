@@ -30,7 +30,7 @@ footer .lg{height:38px}
 .tg:hover{border-color:var(--sky)}
 .tg svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .tg .su{display:none}[data-theme=dark] .tg .su{display:block}[data-theme=dark] .tg .mo{display:none}
-.mono{position:absolute;left:%;30right:30%;top:50%;aspect-ratio:640/230;transform:translateY(-50%);background:var(--mono) center/contain no-repeat;filter:drop-shadow(0 8px 30px rgba(37,99,235,.45))}
+.mono{position:absolute;left:50%;top:50%;width:62%;aspect-ratio:640/230;transform:translate(-50%,-50%);background:var(--mono) center/contain no-repeat;filter:drop-shadow(0 8px 30px rgba(37,99,235,.45));pointer-events:none}
 .links{display:flex;gap:30px;align-items:center}
 .links a:not(.btn){color:var(--tx2);font-size:.93rem;transition:color .2s}
 .links a:not(.btn):hover{color:var(--tx)}
